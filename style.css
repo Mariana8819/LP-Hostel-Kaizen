@@ -10,7 +10,7 @@
 *{
     font-family: "Poppins", serif;
     margin: 0;
-    padding: 2px;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
@@ -24,7 +24,7 @@
     color: #fff;
 }
 
-html{
+html, body{
     font-size: 62.5%;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -133,7 +133,8 @@ section{
     color: #fff;
     padding: .5rem;
     cursor: pointer;
-    margin-left: 1rem;
+    margin-left: .5rem;
+    margin-right: 2rem;
 }
 
 .header .icons #menu-btn:hover {
