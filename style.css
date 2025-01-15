@@ -934,6 +934,10 @@ background-color: #1EBE55;
         font-size: 50%;
     }
 
+    #menu-btn {
+        display: inline-block;
+    }
+
     .header .logo {
         font-size: 1.8rem; 
     }
