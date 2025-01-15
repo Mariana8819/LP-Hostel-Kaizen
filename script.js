@@ -143,24 +143,24 @@ autoplay: {
 function enviarWhatsApp() {
 // Obtener los valores del formulario
 var nombre = document.getElementById('nombre').value;
-var clase = document.getElementById('clase').value;
+var habitacion = document.getElementById('habitacion').value;
 var correo = document.getElementById('correo').value;
 var telefono = document.getElementById('telefono').value;
 
 // Crear el mensaje que se enviará por WhatsApp
 // var mensaje = `Nombre: ${nombre}\nMasaje: ${masaje}\nCorreo: ${correo}\nTeléfono: ${telefono}`;
 
-if(!nombre || !clase || !correo || !telefono) {
+if(!nombre || !habitacion || !correo || !telefono) {
     alert('Por favor , completa todos los campos del formulario.');
     return;
 }
 
-var mensaje = `¡Hola! Mi nombre es ${nombre} y estoy interesad@ en inscribirme para la clase de ${clase}. 
+var mensaje = `¡Hola! Mi nombre es ${nombre} y estoy interesad@ en reservar la habitacion ${habitacion}. 
 Mi correo es ${correo} y mi número de teléfono es ${telefono}. 
 ¿Podrías brindarme más información? ¡Gracias!`;
 
 // Crear el enlace de WhatsApp
-var numeroWhatsApp = '5492235421786';  // Número de WhatsApp donde se enviará el mensaje
+var numeroWhatsApp = '554196552906';  // Número de WhatsApp donde se enviará el mensaje
 var enlaceWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 
 // Redirigir al enlace de WhatsApp
