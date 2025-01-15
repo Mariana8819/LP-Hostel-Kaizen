@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Kaizen</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">  
+  
+</head>
+<body>
+
+    <header class="header">
+        <a href="#inicio" class="logo">
+            <img src="images/logo.png" alt="logoVane">
+            Hostel <span> Kaizen</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#acercade">Acerca de </a>
+            <a href="#destacados">Destacados</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#noticias">Noticias</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#formulario" class="btn">RESERVA AHORA </a>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <section id="inicio" class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), 
+                url('images/recepcion.jpeg');">
+                <div class="content">
+                    <h3>Relájate en nuestro Hostel </h3>
+                    <p>Disfruta de una estancia cómoda y acogedora en el corazón de la ciudad.</p>
+                    <div class="button">
+                        <a href="#servicios" class="btn btn-1">Ver habitaciones</a>
+                        <a href="#" class="btn">Descargar folleto</a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="swiper-slide box" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+                url('images/sillon.png');">
+                <div class="content">
+                    <h3>Tu hogar lejos de casa</h3>
+                    <p>Conoce nuestra variedad de servicios y ambientes para relajarte y disfrutar.</p>
+                    <div class="button">
+                        <a href="#servicios" class="btn btn-1">Explorar servicios</a>
+                        <a href="#" class="btn">Ver precios</a>
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="swiper-slide box" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+                url('images/banderitas.jpg');">
+                <div class="content">
+                    <h3>Tu hogar lejos de casa</h3>
+                    <p>Conoce nuestra variedad de servicios y ambientes para relajarte y disfrutar.</p>
+                    <div class="button">
+                        <a href="#servicios" class="btn btn-1">Explorar servicios</a>
+                        <a href="#" class="btn">Ver precios</a>
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="swiper-slide box" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+                url('images/comedor1.jpeg');">
+                <div class="content">
+                    <h3>Tu hogar lejos de casa</h3>
+                    <p>Conoce nuestra variedad de servicios y ambientes para relajarte y disfrutar.</p>
+                    <div class="button">
+                        <a href="#servicios" class="btn btn-1">Explorar servicios</a>
+                        <a href="#" class="btn">Ver precios</a>
+                    </div>
+                  </div>
+                </div>                
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="destacados" class="feature">
+        <h1 class="heading">Habitaciones<span>Destacadas</span></h1>
+        
+        <div class="swiper feature-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/habsuite2.jpeg" alt="Habitacion suite">
+                    </div>
+                    <div class="content">
+                        <div class="price">$39.99 / noche</div>
+                        <h3>Habitacion Suite Privada</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/hab6camas1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$49.99 / noche</div>
+                        <h3>Habitacion Compartida Femenina </h3>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/hab4camas1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$59.99 / noche</div>
+                        <h3>Habitacion Compartida Mixto 4</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/hab8camas1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="price">$69.99 / noche</div>
+                        <h3>Habitacion Compartida Mixto 8</h3>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="schedule">
+        <h1 class="heading"><span>nuestro </span>servicio</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <h3>Servicio de Transporte</h3>
+                    <p>Ofrecemos transporte desde y hacia el aeropuerto, estación de autobuses o cualquier lugar cercano.</p>
+                </div>
+                <div class="icons">
+                    <span><i class="far fa-clock"></i>24/7</span>
+                </div>
+                <a href="#formulario" class="btn">Reserva ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="images/coworking1.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3>Desayuno</h3>
+                    <p>Disfruta de un delicioso desayuno que incluye café o agua caliente ilimitada, acompañado de una porción de torta del día, frutas frescas, galletitas y un sándwich de jamón y queso. Todo por solo $18.</p>
+                </div>
+                <div class="icons">
+                    <span><i class="far fa-clock"></i>7:00 AM - 10:00AM</span>
+                </div>
+                <a href="#formulario" class="btn">Reserva ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="images/desayunopaquete.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h3>Servicio de Transporte</h3>
+                    <p>Ofrecemos transporte desde y hacia el aeropuerto, estación de autobuses o cualquier lugar cercano.</p>
+                </div>
+                <div class="icons">
+                    <span><i class="far fa-clock"></i>24/7</span>
+                </div>
+                <a href="#formulario" class="btn">Reserva ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="images/coworking2.jpeg" alt="">
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3>Desayuno</h3>
+                    <p>Disfruta de un delicioso desayuno que incluye café o agua caliente ilimitada, acompañado de una porción de torta del día, frutas frescas, galletitas y un sándwich de jamón y queso. Todo por solo $18.</p>
+                </div>
+                <div class="icons">
+                    <span><i class="far fa-clock"></i>7:00 AM - 10:00AM</span>
+                </div>
+                <a href="#formulario" class="btn">Reserva ahora</a>
+            </div>
+
+            <div class="box">
+                <img src="images/desayunopaquete3.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="acercade" class="professional">
+        <h1 class="heading">Sobre <span>Nosotros</span></h1>
+
+        <div class="about-section">
+            <h2>Historia de Hostel Kaizen</h2>
+            <p><strong>Hostel Kaizen </strong> fue fundado por <strong>Marco Antonio</strong>, un viajero apasionado que, después de recorrer el mundo y vivir como <em>worldpacker</em>, decidió crear un lugar donde los viajeros pudieran sentirse como en casa. Marco, conocido por su carisma y su amor por las culturas diversas, vio la necesidad de un espacio acogedor donde se pudiera compartir la experiencia de viajar mientras se disfrutaba de comodidad y un ambiente relajado.</p>
+
+            <div class="image">
+                <img src="images/banderitas.jpg" alt="Historia de Dedal">
+            </div>
+
+            <p>Tras años de viajar y aprender de la vida del viajero, Marco Antonio fundó <strong>Hostel Kaizen</strong> con la misión de crear un refugio donde los huéspedes pudieran encontrar más que solo un lugar para dormir, sino una comunidad. La filosofía de <strong>Kaizen</strong>, que significa "mejora continua", se refleja en cada rincón del hostel, siempre en busca de ofrecer una experiencia que supere las expectativas de todos los que cruzan nuestras puertas.</p>
+
+            <p>En <strong>Hostel Kaizen</strong>, la satisfacción del cliente es nuestra prioridad. Desde acogedoras habitaciones hasta nuestros amplios servicios, garantizamos una estancia memorable para todos nuestros visitantes, quienes se convierten en parte de nuestra gran familia de viajeros.</p>        </div>
+    </section>
+
+    <section class="testimonial">
+        <h1 class="heading">Testimonios</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/fotoman1.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h1>Helena Da Silva</h1>
+                    <p>Viajero</p>
+                </div>
+                <p>Tuve una experiencia increíble en Posada Los Jardines. La habitación era limpia y cómoda, y el personal fue muy amable y atento. ¡Volveré pronto!</p>
+            </div>
+            
+            <div class="box">
+                <div class="image">
+                    <img src="images/fotomujer2.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h1>Helena Da Silva</h1>
+                    <p>Viajero</p>
+                </div>
+                <p>Tuve una experiencia increíble en Posada Los Jardines. La habitación era limpia y cómoda, y el personal fue muy amable y atento. ¡Volveré pronto!</p>
+            </div>
+            
+            <div class="box">
+                <div class="image">
+                    <img src="images/fotomujer3.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h1>Helena Da Silva</h1>
+                    <p>Viajero</p>
+                </div>
+                <p>Tuve una experiencia increíble en Posada Los Jardines. La habitación era limpia y cómoda, y el personal fue muy amable y atento. ¡Volveré pronto!</p>
+            </div>
+            
+            <div class="box">
+                <div class="image">
+                    <img src="images/fotoman2.jpg" alt="">
+                </div>
+                <div class="name">
+                    <h1>Helena Da Silva</h1>
+                    <p>Viajero</p>
+                </div>
+                <p>Tuve una experiencia increíble en Posada Los Jardines. La habitación era limpia y cómoda, y el personal fue muy amable y atento. ¡Volveré pronto!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="noticias" class="blogs">
+        <h1 class="heading">Eventos y <span>Ofertas</span></h1>
+        <div class="swiper blogs-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/fiesta2.jpg" alt="Evento 1">
+                    </div>
+                    <div class="content">
+                        <h3>Fiesta de Bienvenida</h3>
+                        <span><i class="fad fa-calendar-alt"></i>Enero 22, 2025</span>
+                        <p>Únete a nuestra fiesta de bienvenida para conocer a otros viajeros y disfrutar de una noche divertida.</p>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                </div>        
+                              
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/curitiba8.jpg" alt="Evento 1">
+                    </div>
+                    <div class="content">
+                        <h3>Explorando el Jardín Botánico de Curitiba</h3>
+                        <span><i class="fad fa-calendar-alt"></i>Enero 22, 2025</span>
+                        <p>Descubre el Jardín Botánico de Curitiba, uno de los espacios más emblemáticos de la ciudad. Disfruta de su invernadero, senderos rodeados de flora local y su tranquilidad, perfecta para una caminata relajante.</p>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                </div>        
+                              
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/curitiba7.jpg" alt="Evento 1">
+                    </div>
+                    <div class="content">
+                        <h3>Tour Nocturno por los Barrios Históricos de Curitiba</h3>
+                        <span><i class="fad fa-calendar-alt"></i>Enero 22, 2025</span>
+                        <p>Recorre los barrios históricos de Curitiba al caer la noche. Descubre la historia y secretos ocultos de la ciudad mientras disfrutas de su vibrante vida nocturna.</p>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                </div>        
+                              
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/curitiba5.jpg" alt="Evento 1">
+                    </div>
+                    <div class="content">
+                        <h3>Viaje en Tren a Morretes: Un Aventura Escénica</h3>
+                        <span><i class="fad fa-calendar-alt"></i>Enero 22, 2025</span>
+                        <p>Disfruta de un viaje en tren lleno de paisajes impresionantes desde Curitiba hasta la pintoresca ciudad de Morretes. Ideal para los amantes de la naturaleza y la fotografía.</p>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn">Leer más</a>
+                    </div>
+                </div>        
+                              
+            </div>
+        </div>
+    </section>
+
+    <section id="formulario" class="form">
+        <div class="box-container">
+            <div class="box">
+                <h1>Formulario de Reserva</h1>
+                <form id="formulario-inscripcion" >
+                      
+                <!-- <form id="formulario-inscripcion" onsubmit="return enviarFormulario(event)"> -->
+                
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="habitacion">Selecciona habitación:</label>
+                    <select id="habitacion" name="habitacion" required>
+                    <option value="individual">Habitación Individual</option>
+                    <option value="doble">Habitación Doble</option>
+                    <option value="compartida">Habitación Compartida</option>
+                    </select>
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+
+                    <!-- <button type="submit" class="btn">Enviar Inscripción</button> -->
+                    <button type="button" class="btn" onclick="enviarWhatsApp()">Reservar ahora</button>
+                </form>
+                <p id="mensaje-confirmacion"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h1>Sobre nosotros</h1>
+                <div class="text">
+                    <p>Conoce más sobre nuestra filosofía de hospitalidad y los servicios que ofrecemos.</p>
+                </div>
+
+                <div class="icon">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1>Contacto</h1>
+                <div class="icons">
+                    <a href="https://www.bing.com/maps?mepi=129%7E%7EUnknown%7EAddress_Link&ty=18&q=Hostel+Kaizen&ss=ypid.YN7993x16616242772104466789&ppois=-25.41958236694336_-49.27341842651367_Hostel+Kaizen_YN7993x16616242772104466789%7E&cp=-25.419575%7E-49.273424&v=2&sV=1&FORM=MPSRPL&lvl=16.0" 
+                    target="_blank"><i class="fas fa-map-marker-alt"></i>405 Rua David Carneiro, Curitiba, PR, 80530-070</a>
+                    <a href="tel:+554196552906"><i class="fas fa-phone-alt"></i>+554196552906</a>
+                    <a href="mailto:mivallejos8819@gmail.com"><i class="fas fa-envelope"></i>mivallejos8819@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h1>Acceso rápido Links </h1>
+                <div class="icons">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#acercade">Acerca de</a>
+                    <a href="#destacados">Clases Destacadas</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#noticias">Noticias</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://mariana8819.github.io/" target="_blank">
+        <div class="credit">Created by <span>MIV Solutions</span> | all right reserved</div>
+        </a>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>   
+    <footer>
+        <p>&copy; 2025 Costura Profesional. Todos los derechos reservados.</p>
+        <a href="https://wa.me/5492235421786" class="whatsapp" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" 
+            style="width: 40px; height: 40px;">            
+          </a>
+      </footer>
+</body>
+</html>
+
