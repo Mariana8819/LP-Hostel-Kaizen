@@ -935,16 +935,16 @@ background-color: #1EBE55;
     }
 
     .header .logo {
-        font-size: 1.5rem; 
+        font-size: 1.8rem; 
     }
 
     .header .logo span {
-        font-size: 1.3rem; 
+        font-size: 1.6rem; 
     }
     
     .header .icons a{
         letter-spacing: none;
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         padding: 1rem;
     }
 
