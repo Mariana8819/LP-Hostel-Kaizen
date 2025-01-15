@@ -934,8 +934,8 @@ background-color: #1EBE55;
         font-size: 50%;
     }
 
-    #menu-btn {
-        display: inline-block;
+    .header {
+        padding: 2rem 3%;
     }
 
     .header .logo {
@@ -945,11 +945,23 @@ background-color: #1EBE55;
     .header .logo span {
         font-size: 1.6rem; 
     }
+
+    .header .icons {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
     
     .header .icons a{
         letter-spacing: none;
         font-size: 1.6rem;
         padding: 1rem;
+        margin-right: 10px;
+    }
+
+    #menu-btn {
+        margin-right: 10px;
+        font-size: 2rem;
     }
 
     .professional .heading {
