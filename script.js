@@ -160,7 +160,7 @@ Mi correo es ${correo} y mi número de teléfono es ${telefono}.
 ¿Podrías brindarme más información? ¡Gracias!`;
 
 // Crear el enlace de WhatsApp
-var numeroWhatsApp = '554196552906';  // Número de WhatsApp donde se enviará el mensaje
+var numeroWhatsApp = '554188833923';  // Número de WhatsApp donde se enviará el mensaje
 var enlaceWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 
 // Redirigir al enlace de WhatsApp
