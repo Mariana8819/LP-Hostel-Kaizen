@@ -341,9 +341,37 @@
     </section>
 
     <section id="noticias" class="blogs">
-        <h1 class="heading">Eventos y <span>Ofertas</span></h1>
+        <h1 class="heading">Eventos y <span> Blogs</span></h1>
         <div class="swiper blogs-slider">
             <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/chicavoluntaria.png" alt="Evento 1">
+                    </div>
+                    <div class="content">
+                        <h3>Voluntariado pelo Worldpackers</h3>
+                        <span><i class="fad fa-calendar-alt"></i>Enero 22, 2025</span>
+                        <p>Como o Voluntariado pelo Worldpackers Pode Transformar sua Vida e Carreira</p>
+                    </div>
+                    <div class="button">
+                        <a href="https://www.hostelkaizen.com/post/como-o-voluntariado-pelo-worldpackers-pode-transformar-sua-vida-e-carreira" class="btn">Leer más</a>
+                    </div>
+                </div>        
+                              
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="images/flechahostel.png" alt="Evento 1">
+                    </div>
+                    <div class="content">
+                        <h3>Desbravando o Mundo</h3>
+                        <span><i class="fad fa-calendar-alt"></i>Enero 22, 2025</span>
+                        <p>Desbravando o Mundo: Descubra Por Que Escolher um Hostel é a Chave para uma Viagem Inesquecível!</p>
+                    </div>
+                    <div class="button">
+                        <a href="https://www.hostelkaizen.com/post/desbravando-o-mundo-descubra-por-que-escolher-um-hostel-%C3%A9-a-chave-para-uma-viagem-inesquec%C3%ADvel" class="btn">Leer más</a>
+                    </div>
+                </div>        
+                              
                 <div class="swiper-slide box">
                     <div class="image">
                         <img src="images/fiesta2.jpg" alt="Evento 1">
@@ -354,7 +382,7 @@
                         <p>Únete a nuestra fiesta de bienvenida para conocer a otros viajeros y disfrutar de una noche divertida.</p>
                     </div>
                     <div class="button">
-                        <a href="#" class="btn">Leer más</a>
+                        <a href="https://www.hostelkaizen.com/post/como-o-voluntariado-pelo-worldpackers-pode-transformar-sua-vida-e-carreira" class="btn">Leer más</a>
                     </div>
                 </div>        
                               
@@ -404,14 +432,27 @@
         </div>
     </section>
 
-    <section id="formulario" class="form">
+    <section id="mapa" class="mapa-container">
+        <h1 class="heading">Ubicación de <span>Hostel Kaizen</span></h1>
+        <div class="mapa-box">
+            <iframe
+             src="https://www.openstreetmap.org/export/embed.html?bbox=-49.2760033%2C-25.4195593%2C-49.2730033%2C-25.4195593&layer=mapnik&marker=-25.4195593%2C-49.2730033" 
+             width="100%" height="400" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="mapa-button">
+            <a href="https://www.openstreetmap.org/export/embed.html?bbox=-49.2760033%2C-25.4195593%2C-49.2730033%2C-25.4195593&layer=mapnik&marker=-25.4195593%2C-49.2730033" 
+            class="btn" target="_blank">
+            Ver en OpenStreetMap        
+            </a>
+        </div>
+    </section>
+
+    <!-- <section id="formulario" class="form">
         <div class="box-container">
             <div class="box">
                 <h1>Formulario de Reserva</h1>
                 <form id="formulario-inscripcion" >
-                      
-                <!-- <form id="formulario-inscripcion" onsubmit="return enviarFormulario(event)"> -->
-                
+                                      
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required>
 
@@ -429,13 +470,12 @@
                     <label for="telefono">Teléfono:</label>
                     <input type="text" id="telefono" name="telefono" required>
 
-                    <!-- <button type="submit" class="btn">Enviar Inscripción</button> -->
                     <button type="button" class="btn" onclick="enviarWhatsApp()">Reservar ahora</button>
                 </form>
                 <p id="mensaje-confirmacion"></p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="contacto" class="footer">
         <div class="box-container">
